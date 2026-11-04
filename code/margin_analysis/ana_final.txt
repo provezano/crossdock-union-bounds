@@ -1,0 +1,43 @@
+band h_E | set | n | base m_cpu | base m_ev | FB m_ev(struct) | mean h_E | share closed (cpu)
+[0,3) bench   25  -0.13 [-0.31, +0.04]  -0.04 [-0.24, +0.16]  +nan   2.21  0.058
+[0,3) struct  24  -0.23 [-0.37, -0.09]  -0.17 [-0.33, -0.00]  -0.29   1.67  0.136
+[0,3) all     49  -0.18 [-0.30, -0.06]  -0.10 [-0.23, +0.03]  -0.29   1.95  0.091
+[3,6) bench   94  -0.40 [-0.53, -0.27]  -0.30 [-0.44, -0.17]  +nan   4.49  0.088
+[3,6) struct  16  -0.84 [-1.10, -0.57]  -0.76 [-1.03, -0.49]  -0.81   4.07  0.206
+[3,6) all    110  -0.46 [-0.58, -0.34]  -0.37 [-0.49, -0.24]  -0.81   4.43  0.104
+[6,10) bench   38  -0.62 [-0.95, -0.32]  -0.55 [-0.88, -0.23]  +nan   7.62  0.082
+[6,10) struct   7  -1.11 [-1.48, -0.77]  -0.85 [-1.34, -0.38]  -1.32   7.95  0.139
+[6,10) all     45  -0.70 [-0.98, -0.43]  -0.59 [-0.88, -0.32]  -1.32   7.67  0.091
+[10,100) bench   53  -1.03 [-1.19, -0.87]  -0.95 [-1.11, -0.80]  +nan  13.80  0.075
+[10,100) struct  11  -2.06 [-2.66, -1.50]  -1.95 [-2.60, -1.37]  -2.26  17.37  0.118
+[10,100) all     64  -1.20 [-1.40, -1.02]  -1.12 [-1.32, -0.94]  -2.26  14.41  0.084
+bench: share closed = -mean(m_cpu)/mean(h_E) = 0.079; mean h_E 7.13
+struct: share closed = -mean(m_cpu)/mean(h_E) = 0.140; mean h_E 6.07
+OLS m_cpu = -0.076 -0.0686 h_E  (bench, n=210; slope CI [-0.0864, -0.0522])
+OLS m_cpu = -0.275 -0.0945 h_E  (struct, n=58; slope CI [-0.1606, -0.0497])
+OLS m_cpu = -0.109 -0.0750 h_E  (all, n=268; slope CI [-0.0963, -0.0570])
+pooled m_cpu = -0.011 -0.0776 h_E -0.367 struct  (struct dummy CI [-0.574, -0.166])
+bench: partial rank corr(m_cpu, gainU | h_E) = +0.21; corr(gainU, h_E) = -0.28
+struct: partial rank corr(m_cpu, gainU | h_E) = -0.00; corr(gainU, h_E) = +0.29
+
+exact v3 on struct n1=30: 13/18 solved (300 s)
+  B3_30_0      m_cpu -0.47  h_E 2.87%  OPT 353: EACDC +1.42% above, best-of-runs +0.85%, LB* 1.42% below
+  B3_30_1      m_cpu -2.13  h_E 11.11%  open [278, 287]
+  B6_30_0      m_cpu +0.00  h_E 0.00%  OPT 959: EACDC +0.00% above, best-of-runs +0.00%, LB* 0.00% below
+  B6_30_1      m_cpu -0.38  h_E 5.47%  open [341, 349]
+  S1_30_0      m_cpu -0.27  h_E 0.27%  OPT 490: EACDC +0.27% above, best-of-runs +0.00%, LB* 0.00% below
+  S1_30_1      m_cpu +0.00  h_E 0.00%  OPT 655: EACDC +0.00% above, best-of-runs +0.00%, LB* 0.00% below
+  S2_30_0      m_cpu -1.80  h_E 12.12%  open [270, 288]
+  S2_30_1      m_cpu -2.09  h_E 3.49%  OPT 435: EACDC +2.30% above, best-of-runs +0.00%, LB* 1.15% below
+  S3_30_0      m_cpu +0.00  h_E 0.30%  OPT 1001: EACDC +0.00% above, best-of-runs +0.00%, LB* 0.30% below
+  S3_30_1      m_cpu -1.23  h_E 7.51%  open [624, 640]
+  U10x2_30_0   m_cpu -0.22  h_E 2.31%  OPT 762: EACDC +0.83% above, best-of-runs +0.52%, LB* 1.44% below
+  U10x2_30_1   m_cpu -0.16  h_E 1.18%  OPT 851: EACDC +0.71% above, best-of-runs +0.24%, LB* 0.47% below
+  U2x10_30_0   m_cpu +0.33  h_E 2.95%  OPT 905: EACDC +0.33% above, best-of-runs +0.33%, LB* 2.54% below
+  U2x10_30_1   m_cpu +0.58  h_E 2.46%  OPT 855: EACDC +0.55% above, best-of-runs +0.35%, LB* 1.87% below
+  U2x6_30_0    m_cpu -1.59  h_E 4.83%  OPT 1011: EACDC +1.62% above, best-of-runs +0.00%, LB* 3.07% below
+  U2x6_30_1    m_cpu -0.80  h_E 5.03%  OPT 952: EACDC +0.84% above, best-of-runs +0.00%, LB* 3.99% below
+  U6x2_30_0    m_cpu -1.09  h_E 5.06%  open [1067, 1088]
+  U6x2_30_1    m_cpu -1.87  h_E 8.55%  OPT 767: EACDC +2.04% above, best-of-runs +0.13%, LB* 6.00% below
+  solved: mean true EACDC headroom 0.84%, LB* slack 1.71%, base ILS m_cpu -0.50%; corr(m, true headroom) -0.80
+  base ILS closes 0.60 of EACDC's distance to OPT on solved instances

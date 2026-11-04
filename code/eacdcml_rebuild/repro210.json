@@ -1,0 +1,1472 @@
+[
+{
+"key": "m2_20_143",
+"g": "m2",
+"n1": 20,
+"seed": 143,
+"path": "../benchmark_data/data/Dados/2maquinas/20jobs/143.dat"
+},
+{
+"key": "m2_20_26",
+"g": "m2",
+"n1": 20,
+"seed": 26,
+"path": "../benchmark_data/data/Dados/2maquinas/20jobs/26.dat"
+},
+{
+"key": "m2_20_231",
+"g": "m2",
+"n1": 20,
+"seed": 231,
+"path": "../benchmark_data/data/Dados/2maquinas/20jobs/231.dat"
+},
+{
+"key": "m2_20_216",
+"g": "m2",
+"n1": 20,
+"seed": 216,
+"path": "../benchmark_data/data/Dados/2maquinas/20jobs/216.dat"
+},
+{
+"key": "m2_20_234",
+"g": "m2",
+"n1": 20,
+"seed": 234,
+"path": "../benchmark_data/data/Dados/2maquinas/20jobs/234.dat"
+},
+{
+"key": "m2_20_261",
+"g": "m2",
+"n1": 20,
+"seed": 261,
+"path": "../benchmark_data/data/Dados/2maquinas/20jobs/261.dat"
+},
+{
+"key": "m2_30_171",
+"g": "m2",
+"n1": 30,
+"seed": 171,
+"path": "../benchmark_data/data/Dados/2maquinas/30jobs/171.dat"
+},
+{
+"key": "m2_30_66",
+"g": "m2",
+"n1": 30,
+"seed": 66,
+"path": "../benchmark_data/data/Dados/2maquinas/30jobs/66.dat"
+},
+{
+"key": "m2_30_296",
+"g": "m2",
+"n1": 30,
+"seed": 296,
+"path": "../benchmark_data/data/Dados/2maquinas/30jobs/296.dat"
+},
+{
+"key": "m2_30_177",
+"g": "m2",
+"n1": 30,
+"seed": 177,
+"path": "../benchmark_data/data/Dados/2maquinas/30jobs/177.dat"
+},
+{
+"key": "m2_30_280",
+"g": "m2",
+"n1": 30,
+"seed": 280,
+"path": "../benchmark_data/data/Dados/2maquinas/30jobs/280.dat"
+},
+{
+"key": "m2_30_79",
+"g": "m2",
+"n1": 30,
+"seed": 79,
+"path": "../benchmark_data/data/Dados/2maquinas/30jobs/79.dat"
+},
+{
+"key": "m2_40_274",
+"g": "m2",
+"n1": 40,
+"seed": 274,
+"path": "../benchmark_data/data/Dados/2maquinas/40jobs/274.dat"
+},
+{
+"key": "m2_40_309",
+"g": "m2",
+"n1": 40,
+"seed": 309,
+"path": "../benchmark_data/data/Dados/2maquinas/40jobs/309.dat"
+},
+{
+"key": "m2_40_113",
+"g": "m2",
+"n1": 40,
+"seed": 113,
+"path": "../benchmark_data/data/Dados/2maquinas/40jobs/113.dat"
+},
+{
+"key": "m2_40_260",
+"g": "m2",
+"n1": 40,
+"seed": 260,
+"path": "../benchmark_data/data/Dados/2maquinas/40jobs/260.dat"
+},
+{
+"key": "m2_40_143",
+"g": "m2",
+"n1": 40,
+"seed": 143,
+"path": "../benchmark_data/data/Dados/2maquinas/40jobs/143.dat"
+},
+{
+"key": "m2_40_40",
+"g": "m2",
+"n1": 40,
+"seed": 40,
+"path": "../benchmark_data/data/Dados/2maquinas/40jobs/40.dat"
+},
+{
+"key": "m2_50_196",
+"g": "m2",
+"n1": 50,
+"seed": 196,
+"path": "../benchmark_data/data/Dados/2maquinas/50jobs/196.dat"
+},
+{
+"key": "m2_50_214",
+"g": "m2",
+"n1": 50,
+"seed": 214,
+"path": "../benchmark_data/data/Dados/2maquinas/50jobs/214.dat"
+},
+{
+"key": "m2_50_166",
+"g": "m2",
+"n1": 50,
+"seed": 166,
+"path": "../benchmark_data/data/Dados/2maquinas/50jobs/166.dat"
+},
+{
+"key": "m2_50_277",
+"g": "m2",
+"n1": 50,
+"seed": 277,
+"path": "../benchmark_data/data/Dados/2maquinas/50jobs/277.dat"
+},
+{
+"key": "m2_50_282",
+"g": "m2",
+"n1": 50,
+"seed": 282,
+"path": "../benchmark_data/data/Dados/2maquinas/50jobs/282.dat"
+},
+{
+"key": "m2_50_27",
+"g": "m2",
+"n1": 50,
+"seed": 27,
+"path": "../benchmark_data/data/Dados/2maquinas/50jobs/27.dat"
+},
+{
+"key": "m2_60_160",
+"g": "m2",
+"n1": 60,
+"seed": 160,
+"path": "../benchmark_data/data/Dados/2maquinas/60jobs/160.dat"
+},
+{
+"key": "m2_60_288",
+"g": "m2",
+"n1": 60,
+"seed": 288,
+"path": "../benchmark_data/data/Dados/2maquinas/60jobs/288.dat"
+},
+{
+"key": "m2_60_140",
+"g": "m2",
+"n1": 60,
+"seed": 140,
+"path": "../benchmark_data/data/Dados/2maquinas/60jobs/140.dat"
+},
+{
+"key": "m2_60_271",
+"g": "m2",
+"n1": 60,
+"seed": 271,
+"path": "../benchmark_data/data/Dados/2maquinas/60jobs/271.dat"
+},
+{
+"key": "m2_60_206",
+"g": "m2",
+"n1": 60,
+"seed": 206,
+"path": "../benchmark_data/data/Dados/2maquinas/60jobs/206.dat"
+},
+{
+"key": "m2_60_188",
+"g": "m2",
+"n1": 60,
+"seed": 188,
+"path": "../benchmark_data/data/Dados/2maquinas/60jobs/188.dat"
+},
+{
+"key": "m2_70_303",
+"g": "m2",
+"n1": 70,
+"seed": 303,
+"path": "../benchmark_data/data/Dados/2maquinas/70jobs/303.dat"
+},
+{
+"key": "m2_70_290",
+"g": "m2",
+"n1": 70,
+"seed": 290,
+"path": "../benchmark_data/data/Dados/2maquinas/70jobs/290.dat"
+},
+{
+"key": "m2_70_172",
+"g": "m2",
+"n1": 70,
+"seed": 172,
+"path": "../benchmark_data/data/Dados/2maquinas/70jobs/172.dat"
+},
+{
+"key": "m2_70_141",
+"g": "m2",
+"n1": 70,
+"seed": 141,
+"path": "../benchmark_data/data/Dados/2maquinas/70jobs/141.dat"
+},
+{
+"key": "m2_70_58",
+"g": "m2",
+"n1": 70,
+"seed": 58,
+"path": "../benchmark_data/data/Dados/2maquinas/70jobs/58.dat"
+},
+{
+"key": "m2_70_180",
+"g": "m2",
+"n1": 70,
+"seed": 180,
+"path": "../benchmark_data/data/Dados/2maquinas/70jobs/180.dat"
+},
+{
+"key": "m2_80_298",
+"g": "m2",
+"n1": 80,
+"seed": 298,
+"path": "../benchmark_data/data/Dados/2maquinas/80jobs/298.dat"
+},
+{
+"key": "m2_80_186",
+"g": "m2",
+"n1": 80,
+"seed": 186,
+"path": "../benchmark_data/data/Dados/2maquinas/80jobs/186.dat"
+},
+{
+"key": "m2_80_64",
+"g": "m2",
+"n1": 80,
+"seed": 64,
+"path": "../benchmark_data/data/Dados/2maquinas/80jobs/64.dat"
+},
+{
+"key": "m2_80_207",
+"g": "m2",
+"n1": 80,
+"seed": 207,
+"path": "../benchmark_data/data/Dados/2maquinas/80jobs/207.dat"
+},
+{
+"key": "m2_80_308",
+"g": "m2",
+"n1": 80,
+"seed": 308,
+"path": "../benchmark_data/data/Dados/2maquinas/80jobs/308.dat"
+},
+{
+"key": "m2_80_31",
+"g": "m2",
+"n1": 80,
+"seed": 31,
+"path": "../benchmark_data/data/Dados/2maquinas/80jobs/31.dat"
+},
+{
+"key": "m4_20_244",
+"g": "m4",
+"n1": 20,
+"seed": 244,
+"path": "../benchmark_data/data/Dados/4maquinas/20jobs/244.dat"
+},
+{
+"key": "m4_20_147",
+"g": "m4",
+"n1": 20,
+"seed": 147,
+"path": "../benchmark_data/data/Dados/4maquinas/20jobs/147.dat"
+},
+{
+"key": "m4_20_109",
+"g": "m4",
+"n1": 20,
+"seed": 109,
+"path": "../benchmark_data/data/Dados/4maquinas/20jobs/109.dat"
+},
+{
+"key": "m4_20_37",
+"g": "m4",
+"n1": 20,
+"seed": 37,
+"path": "../benchmark_data/data/Dados/4maquinas/20jobs/37.dat"
+},
+{
+"key": "m4_20_286",
+"g": "m4",
+"n1": 20,
+"seed": 286,
+"path": "../benchmark_data/data/Dados/4maquinas/20jobs/286.dat"
+},
+{
+"key": "m4_20_299",
+"g": "m4",
+"n1": 20,
+"seed": 299,
+"path": "../benchmark_data/data/Dados/4maquinas/20jobs/299.dat"
+},
+{
+"key": "m4_30_192",
+"g": "m4",
+"n1": 30,
+"seed": 192,
+"path": "../benchmark_data/data/Dados/4maquinas/30jobs/192.dat"
+},
+{
+"key": "m4_30_127",
+"g": "m4",
+"n1": 30,
+"seed": 127,
+"path": "../benchmark_data/data/Dados/4maquinas/30jobs/127.dat"
+},
+{
+"key": "m4_30_89",
+"g": "m4",
+"n1": 30,
+"seed": 89,
+"path": "../benchmark_data/data/Dados/4maquinas/30jobs/89.dat"
+},
+{
+"key": "m4_30_77",
+"g": "m4",
+"n1": 30,
+"seed": 77,
+"path": "../benchmark_data/data/Dados/4maquinas/30jobs/77.dat"
+},
+{
+"key": "m4_30_299",
+"g": "m4",
+"n1": 30,
+"seed": 299,
+"path": "../benchmark_data/data/Dados/4maquinas/30jobs/299.dat"
+},
+{
+"key": "m4_30_261",
+"g": "m4",
+"n1": 30,
+"seed": 261,
+"path": "../benchmark_data/data/Dados/4maquinas/30jobs/261.dat"
+},
+{
+"key": "m4_40_149",
+"g": "m4",
+"n1": 40,
+"seed": 149,
+"path": "../benchmark_data/data/Dados/4maquinas/40jobs/149.dat"
+},
+{
+"key": "m4_40_215",
+"g": "m4",
+"n1": 40,
+"seed": 215,
+"path": "../benchmark_data/data/Dados/4maquinas/40jobs/215.dat"
+},
+{
+"key": "m4_40_25",
+"g": "m4",
+"n1": 40,
+"seed": 25,
+"path": "../benchmark_data/data/Dados/4maquinas/40jobs/25.dat"
+},
+{
+"key": "m4_40_80",
+"g": "m4",
+"n1": 40,
+"seed": 80,
+"path": "../benchmark_data/data/Dados/4maquinas/40jobs/80.dat"
+},
+{
+"key": "m4_40_47",
+"g": "m4",
+"n1": 40,
+"seed": 47,
+"path": "../benchmark_data/data/Dados/4maquinas/40jobs/47.dat"
+},
+{
+"key": "m4_40_38",
+"g": "m4",
+"n1": 40,
+"seed": 38,
+"path": "../benchmark_data/data/Dados/4maquinas/40jobs/38.dat"
+},
+{
+"key": "m4_50_147",
+"g": "m4",
+"n1": 50,
+"seed": 147,
+"path": "../benchmark_data/data/Dados/4maquinas/50jobs/147.dat"
+},
+{
+"key": "m4_50_81",
+"g": "m4",
+"n1": 50,
+"seed": 81,
+"path": "../benchmark_data/data/Dados/4maquinas/50jobs/81.dat"
+},
+{
+"key": "m4_50_139",
+"g": "m4",
+"n1": 50,
+"seed": 139,
+"path": "../benchmark_data/data/Dados/4maquinas/50jobs/139.dat"
+},
+{
+"key": "m4_50_232",
+"g": "m4",
+"n1": 50,
+"seed": 232,
+"path": "../benchmark_data/data/Dados/4maquinas/50jobs/232.dat"
+},
+{
+"key": "m4_50_307",
+"g": "m4",
+"n1": 50,
+"seed": 307,
+"path": "../benchmark_data/data/Dados/4maquinas/50jobs/307.dat"
+},
+{
+"key": "m4_50_76",
+"g": "m4",
+"n1": 50,
+"seed": 76,
+"path": "../benchmark_data/data/Dados/4maquinas/50jobs/76.dat"
+},
+{
+"key": "m4_60_199",
+"g": "m4",
+"n1": 60,
+"seed": 199,
+"path": "../benchmark_data/data/Dados/4maquinas/60jobs/199.dat"
+},
+{
+"key": "m4_60_140",
+"g": "m4",
+"n1": 60,
+"seed": 140,
+"path": "../benchmark_data/data/Dados/4maquinas/60jobs/140.dat"
+},
+{
+"key": "m4_60_299",
+"g": "m4",
+"n1": 60,
+"seed": 299,
+"path": "../benchmark_data/data/Dados/4maquinas/60jobs/299.dat"
+},
+{
+"key": "m4_60_79",
+"g": "m4",
+"n1": 60,
+"seed": 79,
+"path": "../benchmark_data/data/Dados/4maquinas/60jobs/79.dat"
+},
+{
+"key": "m4_60_78",
+"g": "m4",
+"n1": 60,
+"seed": 78,
+"path": "../benchmark_data/data/Dados/4maquinas/60jobs/78.dat"
+},
+{
+"key": "m4_60_278",
+"g": "m4",
+"n1": 60,
+"seed": 278,
+"path": "../benchmark_data/data/Dados/4maquinas/60jobs/278.dat"
+},
+{
+"key": "m4_70_135",
+"g": "m4",
+"n1": 70,
+"seed": 135,
+"path": "../benchmark_data/data/Dados/4maquinas/70jobs/135.dat"
+},
+{
+"key": "m4_70_279",
+"g": "m4",
+"n1": 70,
+"seed": 279,
+"path": "../benchmark_data/data/Dados/4maquinas/70jobs/279.dat"
+},
+{
+"key": "m4_70_281",
+"g": "m4",
+"n1": 70,
+"seed": 281,
+"path": "../benchmark_data/data/Dados/4maquinas/70jobs/281.dat"
+},
+{
+"key": "m4_70_235",
+"g": "m4",
+"n1": 70,
+"seed": 235,
+"path": "../benchmark_data/data/Dados/4maquinas/70jobs/235.dat"
+},
+{
+"key": "m4_70_282",
+"g": "m4",
+"n1": 70,
+"seed": 282,
+"path": "../benchmark_data/data/Dados/4maquinas/70jobs/282.dat"
+},
+{
+"key": "m4_70_138",
+"g": "m4",
+"n1": 70,
+"seed": 138,
+"path": "../benchmark_data/data/Dados/4maquinas/70jobs/138.dat"
+},
+{
+"key": "m4_80_193",
+"g": "m4",
+"n1": 80,
+"seed": 193,
+"path": "../benchmark_data/data/Dados/4maquinas/80jobs/193.dat"
+},
+{
+"key": "m4_80_26",
+"g": "m4",
+"n1": 80,
+"seed": 26,
+"path": "../benchmark_data/data/Dados/4maquinas/80jobs/26.dat"
+},
+{
+"key": "m4_80_107",
+"g": "m4",
+"n1": 80,
+"seed": 107,
+"path": "../benchmark_data/data/Dados/4maquinas/80jobs/107.dat"
+},
+{
+"key": "m4_80_225",
+"g": "m4",
+"n1": 80,
+"seed": 225,
+"path": "../benchmark_data/data/Dados/4maquinas/80jobs/225.dat"
+},
+{
+"key": "m4_80_252",
+"g": "m4",
+"n1": 80,
+"seed": 252,
+"path": "../benchmark_data/data/Dados/4maquinas/80jobs/252.dat"
+},
+{
+"key": "m4_80_301",
+"g": "m4",
+"n1": 80,
+"seed": 301,
+"path": "../benchmark_data/data/Dados/4maquinas/80jobs/301.dat"
+},
+{
+"key": "m10_20_96",
+"g": "m10",
+"n1": 20,
+"seed": 96,
+"path": "../benchmark_data/data/Dados/10maquinas/20jobs/96.dat"
+},
+{
+"key": "m10_20_272",
+"g": "m10",
+"n1": 20,
+"seed": 272,
+"path": "../benchmark_data/data/Dados/10maquinas/20jobs/272.dat"
+},
+{
+"key": "m10_20_201",
+"g": "m10",
+"n1": 20,
+"seed": 201,
+"path": "../benchmark_data/data/Dados/10maquinas/20jobs/201.dat"
+},
+{
+"key": "m10_20_30",
+"g": "m10",
+"n1": 20,
+"seed": 30,
+"path": "../benchmark_data/data/Dados/10maquinas/20jobs/30.dat"
+},
+{
+"key": "m10_20_309",
+"g": "m10",
+"n1": 20,
+"seed": 309,
+"path": "../benchmark_data/data/Dados/10maquinas/20jobs/309.dat"
+},
+{
+"key": "m10_20_174",
+"g": "m10",
+"n1": 20,
+"seed": 174,
+"path": "../benchmark_data/data/Dados/10maquinas/20jobs/174.dat"
+},
+{
+"key": "m10_30_80",
+"g": "m10",
+"n1": 30,
+"seed": 80,
+"path": "../benchmark_data/data/Dados/10maquinas/30jobs/80.dat"
+},
+{
+"key": "m10_30_112",
+"g": "m10",
+"n1": 30,
+"seed": 112,
+"path": "../benchmark_data/data/Dados/10maquinas/30jobs/112.dat"
+},
+{
+"key": "m10_30_39",
+"g": "m10",
+"n1": 30,
+"seed": 39,
+"path": "../benchmark_data/data/Dados/10maquinas/30jobs/39.dat"
+},
+{
+"key": "m10_30_203",
+"g": "m10",
+"n1": 30,
+"seed": 203,
+"path": "../benchmark_data/data/Dados/10maquinas/30jobs/203.dat"
+},
+{
+"key": "m10_30_22",
+"g": "m10",
+"n1": 30,
+"seed": 22,
+"path": "../benchmark_data/data/Dados/10maquinas/30jobs/22.dat"
+},
+{
+"key": "m10_30_161",
+"g": "m10",
+"n1": 30,
+"seed": 161,
+"path": "../benchmark_data/data/Dados/10maquinas/30jobs/161.dat"
+},
+{
+"key": "m10_40_312",
+"g": "m10",
+"n1": 40,
+"seed": 312,
+"path": "../benchmark_data/data/Dados/10maquinas/40jobs/312.dat"
+},
+{
+"key": "m10_40_102",
+"g": "m10",
+"n1": 40,
+"seed": 102,
+"path": "../benchmark_data/data/Dados/10maquinas/40jobs/102.dat"
+},
+{
+"key": "m10_40_224",
+"g": "m10",
+"n1": 40,
+"seed": 224,
+"path": "../benchmark_data/data/Dados/10maquinas/40jobs/224.dat"
+},
+{
+"key": "m10_40_51",
+"g": "m10",
+"n1": 40,
+"seed": 51,
+"path": "../benchmark_data/data/Dados/10maquinas/40jobs/51.dat"
+},
+{
+"key": "m10_40_69",
+"g": "m10",
+"n1": 40,
+"seed": 69,
+"path": "../benchmark_data/data/Dados/10maquinas/40jobs/69.dat"
+},
+{
+"key": "m10_40_193",
+"g": "m10",
+"n1": 40,
+"seed": 193,
+"path": "../benchmark_data/data/Dados/10maquinas/40jobs/193.dat"
+},
+{
+"key": "m10_50_100",
+"g": "m10",
+"n1": 50,
+"seed": 100,
+"path": "../benchmark_data/data/Dados/10maquinas/50jobs/100.dat"
+},
+{
+"key": "m10_50_74",
+"g": "m10",
+"n1": 50,
+"seed": 74,
+"path": "../benchmark_data/data/Dados/10maquinas/50jobs/74.dat"
+},
+{
+"key": "m10_50_216",
+"g": "m10",
+"n1": 50,
+"seed": 216,
+"path": "../benchmark_data/data/Dados/10maquinas/50jobs/216.dat"
+},
+{
+"key": "m10_50_306",
+"g": "m10",
+"n1": 50,
+"seed": 306,
+"path": "../benchmark_data/data/Dados/10maquinas/50jobs/306.dat"
+},
+{
+"key": "m10_50_130",
+"g": "m10",
+"n1": 50,
+"seed": 130,
+"path": "../benchmark_data/data/Dados/10maquinas/50jobs/130.dat"
+},
+{
+"key": "m10_50_181",
+"g": "m10",
+"n1": 50,
+"seed": 181,
+"path": "../benchmark_data/data/Dados/10maquinas/50jobs/181.dat"
+},
+{
+"key": "m10_60_50",
+"g": "m10",
+"n1": 60,
+"seed": 50,
+"path": "../benchmark_data/data/Dados/10maquinas/60jobs/50.dat"
+},
+{
+"key": "m10_60_146",
+"g": "m10",
+"n1": 60,
+"seed": 146,
+"path": "../benchmark_data/data/Dados/10maquinas/60jobs/146.dat"
+},
+{
+"key": "m10_60_215",
+"g": "m10",
+"n1": 60,
+"seed": 215,
+"path": "../benchmark_data/data/Dados/10maquinas/60jobs/215.dat"
+},
+{
+"key": "m10_60_144",
+"g": "m10",
+"n1": 60,
+"seed": 144,
+"path": "../benchmark_data/data/Dados/10maquinas/60jobs/144.dat"
+},
+{
+"key": "m10_60_110",
+"g": "m10",
+"n1": 60,
+"seed": 110,
+"path": "../benchmark_data/data/Dados/10maquinas/60jobs/110.dat"
+},
+{
+"key": "m10_60_75",
+"g": "m10",
+"n1": 60,
+"seed": 75,
+"path": "../benchmark_data/data/Dados/10maquinas/60jobs/75.dat"
+},
+{
+"key": "m10_70_301",
+"g": "m10",
+"n1": 70,
+"seed": 301,
+"path": "../benchmark_data/data/Dados/10maquinas/70jobs/301.dat"
+},
+{
+"key": "m10_70_167",
+"g": "m10",
+"n1": 70,
+"seed": 167,
+"path": "../benchmark_data/data/Dados/10maquinas/70jobs/167.dat"
+},
+{
+"key": "m10_70_294",
+"g": "m10",
+"n1": 70,
+"seed": 294,
+"path": "../benchmark_data/data/Dados/10maquinas/70jobs/294.dat"
+},
+{
+"key": "m10_70_84",
+"g": "m10",
+"n1": 70,
+"seed": 84,
+"path": "../benchmark_data/data/Dados/10maquinas/70jobs/84.dat"
+},
+{
+"key": "m10_70_219",
+"g": "m10",
+"n1": 70,
+"seed": 219,
+"path": "../benchmark_data/data/Dados/10maquinas/70jobs/219.dat"
+},
+{
+"key": "m10_70_206",
+"g": "m10",
+"n1": 70,
+"seed": 206,
+"path": "../benchmark_data/data/Dados/10maquinas/70jobs/206.dat"
+},
+{
+"key": "m10_80_158",
+"g": "m10",
+"n1": 80,
+"seed": 158,
+"path": "../benchmark_data/data/Dados/10maquinas/80jobs/158.dat"
+},
+{
+"key": "m10_80_123",
+"g": "m10",
+"n1": 80,
+"seed": 123,
+"path": "../benchmark_data/data/Dados/10maquinas/80jobs/123.dat"
+},
+{
+"key": "m10_80_150",
+"g": "m10",
+"n1": 80,
+"seed": 150,
+"path": "../benchmark_data/data/Dados/10maquinas/80jobs/150.dat"
+},
+{
+"key": "m10_80_19",
+"g": "m10",
+"n1": 80,
+"seed": 19,
+"path": "../benchmark_data/data/Dados/10maquinas/80jobs/19.dat"
+},
+{
+"key": "m10_80_313",
+"g": "m10",
+"n1": 80,
+"seed": 313,
+"path": "../benchmark_data/data/Dados/10maquinas/80jobs/313.dat"
+},
+{
+"key": "m10_80_157",
+"g": "m10",
+"n1": 80,
+"seed": 157,
+"path": "../benchmark_data/data/Dados/10maquinas/80jobs/157.dat"
+},
+{
+"key": "u24_20_249",
+"g": "u24",
+"n1": 20,
+"seed": 249,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/20jobs/249.dat"
+},
+{
+"key": "u24_20_168",
+"g": "u24",
+"n1": 20,
+"seed": 168,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/20jobs/168.dat"
+},
+{
+"key": "u24_20_283",
+"g": "u24",
+"n1": 20,
+"seed": 283,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/20jobs/283.dat"
+},
+{
+"key": "u24_20_43",
+"g": "u24",
+"n1": 20,
+"seed": 43,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/20jobs/43.dat"
+},
+{
+"key": "u24_20_86",
+"g": "u24",
+"n1": 20,
+"seed": 86,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/20jobs/86.dat"
+},
+{
+"key": "u24_20_271",
+"g": "u24",
+"n1": 20,
+"seed": 271,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/20jobs/271.dat"
+},
+{
+"key": "u24_30_38",
+"g": "u24",
+"n1": 30,
+"seed": 38,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/30jobs/38.dat"
+},
+{
+"key": "u24_30_85",
+"g": "u24",
+"n1": 30,
+"seed": 85,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/30jobs/85.dat"
+},
+{
+"key": "u24_30_109",
+"g": "u24",
+"n1": 30,
+"seed": 109,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/30jobs/109.dat"
+},
+{
+"key": "u24_30_104",
+"g": "u24",
+"n1": 30,
+"seed": 104,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/30jobs/104.dat"
+},
+{
+"key": "u24_30_43",
+"g": "u24",
+"n1": 30,
+"seed": 43,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/30jobs/43.dat"
+},
+{
+"key": "u24_30_263",
+"g": "u24",
+"n1": 30,
+"seed": 263,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/30jobs/263.dat"
+},
+{
+"key": "u24_40_169",
+"g": "u24",
+"n1": 40,
+"seed": 169,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/40jobs/169.dat"
+},
+{
+"key": "u24_40_150",
+"g": "u24",
+"n1": 40,
+"seed": 150,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/40jobs/150.dat"
+},
+{
+"key": "u24_40_278",
+"g": "u24",
+"n1": 40,
+"seed": 278,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/40jobs/278.dat"
+},
+{
+"key": "u24_40_244",
+"g": "u24",
+"n1": 40,
+"seed": 244,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/40jobs/244.dat"
+},
+{
+"key": "u24_40_179",
+"g": "u24",
+"n1": 40,
+"seed": 179,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/40jobs/179.dat"
+},
+{
+"key": "u24_40_31",
+"g": "u24",
+"n1": 40,
+"seed": 31,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/40jobs/31.dat"
+},
+{
+"key": "u24_50_219",
+"g": "u24",
+"n1": 50,
+"seed": 219,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/50jobs/219.dat"
+},
+{
+"key": "u24_50_213",
+"g": "u24",
+"n1": 50,
+"seed": 213,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/50jobs/213.dat"
+},
+{
+"key": "u24_50_92",
+"g": "u24",
+"n1": 50,
+"seed": 92,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/50jobs/92.dat"
+},
+{
+"key": "u24_50_91",
+"g": "u24",
+"n1": 50,
+"seed": 91,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/50jobs/91.dat"
+},
+{
+"key": "u24_50_192",
+"g": "u24",
+"n1": 50,
+"seed": 192,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/50jobs/192.dat"
+},
+{
+"key": "u24_50_218",
+"g": "u24",
+"n1": 50,
+"seed": 218,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/50jobs/218.dat"
+},
+{
+"key": "u24_60_66",
+"g": "u24",
+"n1": 60,
+"seed": 66,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/60jobs/66.dat"
+},
+{
+"key": "u24_60_80",
+"g": "u24",
+"n1": 60,
+"seed": 80,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/60jobs/80.dat"
+},
+{
+"key": "u24_60_96",
+"g": "u24",
+"n1": 60,
+"seed": 96,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/60jobs/96.dat"
+},
+{
+"key": "u24_60_165",
+"g": "u24",
+"n1": 60,
+"seed": 165,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/60jobs/165.dat"
+},
+{
+"key": "u24_60_43",
+"g": "u24",
+"n1": 60,
+"seed": 43,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/60jobs/43.dat"
+},
+{
+"key": "u24_60_172",
+"g": "u24",
+"n1": 60,
+"seed": 172,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/60jobs/172.dat"
+},
+{
+"key": "u24_70_18",
+"g": "u24",
+"n1": 70,
+"seed": 18,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/70jobs/18.dat"
+},
+{
+"key": "u24_70_185",
+"g": "u24",
+"n1": 70,
+"seed": 185,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/70jobs/185.dat"
+},
+{
+"key": "u24_70_47",
+"g": "u24",
+"n1": 70,
+"seed": 47,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/70jobs/47.dat"
+},
+{
+"key": "u24_70_310",
+"g": "u24",
+"n1": 70,
+"seed": 310,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/70jobs/310.dat"
+},
+{
+"key": "u24_70_59",
+"g": "u24",
+"n1": 70,
+"seed": 59,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/70jobs/59.dat"
+},
+{
+"key": "u24_70_91",
+"g": "u24",
+"n1": 70,
+"seed": 91,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/70jobs/91.dat"
+},
+{
+"key": "u24_80_195",
+"g": "u24",
+"n1": 80,
+"seed": 195,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/80jobs/195.dat"
+},
+{
+"key": "u24_80_295",
+"g": "u24",
+"n1": 80,
+"seed": 295,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/80jobs/295.dat"
+},
+{
+"key": "u24_80_141",
+"g": "u24",
+"n1": 80,
+"seed": 141,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/80jobs/141.dat"
+},
+{
+"key": "u24_80_238",
+"g": "u24",
+"n1": 80,
+"seed": 238,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/80jobs/238.dat"
+},
+{
+"key": "u24_80_212",
+"g": "u24",
+"n1": 80,
+"seed": 212,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/80jobs/212.dat"
+},
+{
+"key": "u24_80_227",
+"g": "u24",
+"n1": 80,
+"seed": 227,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/80jobs/227.dat"
+},
+{
+"key": "u210_20_45",
+"g": "u210",
+"n1": 20,
+"seed": 45,
+"path": "../benchmark_data/data/Dados/[2-10]/20jobs/45.dat"
+},
+{
+"key": "u210_20_138",
+"g": "u210",
+"n1": 20,
+"seed": 138,
+"path": "../benchmark_data/data/Dados/[2-10]/20jobs/138.dat"
+},
+{
+"key": "u210_20_53",
+"g": "u210",
+"n1": 20,
+"seed": 53,
+"path": "../benchmark_data/data/Dados/[2-10]/20jobs/53.dat"
+},
+{
+"key": "u210_20_266",
+"g": "u210",
+"n1": 20,
+"seed": 266,
+"path": "../benchmark_data/data/Dados/[2-10]/20jobs/266.dat"
+},
+{
+"key": "u210_20_272",
+"g": "u210",
+"n1": 20,
+"seed": 272,
+"path": "../benchmark_data/data/Dados/[2-10]/20jobs/272.dat"
+},
+{
+"key": "u210_20_247",
+"g": "u210",
+"n1": 20,
+"seed": 247,
+"path": "../benchmark_data/data/Dados/[2-10]/20jobs/247.dat"
+},
+{
+"key": "u210_30_296",
+"g": "u210",
+"n1": 30,
+"seed": 296,
+"path": "../benchmark_data/data/Dados/[2-10]/30jobs/296.dat"
+},
+{
+"key": "u210_30_253",
+"g": "u210",
+"n1": 30,
+"seed": 253,
+"path": "../benchmark_data/data/Dados/[2-10]/30jobs/253.dat"
+},
+{
+"key": "u210_30_42",
+"g": "u210",
+"n1": 30,
+"seed": 42,
+"path": "../benchmark_data/data/Dados/[2-10]/30jobs/42.dat"
+},
+{
+"key": "u210_30_209",
+"g": "u210",
+"n1": 30,
+"seed": 209,
+"path": "../benchmark_data/data/Dados/[2-10]/30jobs/209.dat"
+},
+{
+"key": "u210_30_61",
+"g": "u210",
+"n1": 30,
+"seed": 61,
+"path": "../benchmark_data/data/Dados/[2-10]/30jobs/61.dat"
+},
+{
+"key": "u210_30_56",
+"g": "u210",
+"n1": 30,
+"seed": 56,
+"path": "../benchmark_data/data/Dados/[2-10]/30jobs/56.dat"
+},
+{
+"key": "u210_40_267",
+"g": "u210",
+"n1": 40,
+"seed": 267,
+"path": "../benchmark_data/data/Dados/[2-10]/40jobs/267.dat"
+},
+{
+"key": "u210_40_92",
+"g": "u210",
+"n1": 40,
+"seed": 92,
+"path": "../benchmark_data/data/Dados/[2-10]/40jobs/92.dat"
+},
+{
+"key": "u210_40_218",
+"g": "u210",
+"n1": 40,
+"seed": 218,
+"path": "../benchmark_data/data/Dados/[2-10]/40jobs/218.dat"
+},
+{
+"key": "u210_40_122",
+"g": "u210",
+"n1": 40,
+"seed": 122,
+"path": "../benchmark_data/data/Dados/[2-10]/40jobs/122.dat"
+},
+{
+"key": "u210_40_110",
+"g": "u210",
+"n1": 40,
+"seed": 110,
+"path": "../benchmark_data/data/Dados/[2-10]/40jobs/110.dat"
+},
+{
+"key": "u210_40_311",
+"g": "u210",
+"n1": 40,
+"seed": 311,
+"path": "../benchmark_data/data/Dados/[2-10]/40jobs/311.dat"
+},
+{
+"key": "u210_50_51",
+"g": "u210",
+"n1": 50,
+"seed": 51,
+"path": "../benchmark_data/data/Dados/[2-10]/50jobs/51.dat"
+},
+{
+"key": "u210_50_194",
+"g": "u210",
+"n1": 50,
+"seed": 194,
+"path": "../benchmark_data/data/Dados/[2-10]/50jobs/194.dat"
+},
+{
+"key": "u210_50_313",
+"g": "u210",
+"n1": 50,
+"seed": 313,
+"path": "../benchmark_data/data/Dados/[2-10]/50jobs/313.dat"
+},
+{
+"key": "u210_50_284",
+"g": "u210",
+"n1": 50,
+"seed": 284,
+"path": "../benchmark_data/data/Dados/[2-10]/50jobs/284.dat"
+},
+{
+"key": "u210_50_181",
+"g": "u210",
+"n1": 50,
+"seed": 181,
+"path": "../benchmark_data/data/Dados/[2-10]/50jobs/181.dat"
+},
+{
+"key": "u210_50_215",
+"g": "u210",
+"n1": 50,
+"seed": 215,
+"path": "../benchmark_data/data/Dados/[2-10]/50jobs/215.dat"
+},
+{
+"key": "u210_60_291",
+"g": "u210",
+"n1": 60,
+"seed": 291,
+"path": "../benchmark_data/data/Dados/[2-10]/60jobs/291.dat"
+},
+{
+"key": "u210_60_256",
+"g": "u210",
+"n1": 60,
+"seed": 256,
+"path": "../benchmark_data/data/Dados/[2-10]/60jobs/256.dat"
+},
+{
+"key": "u210_60_98",
+"g": "u210",
+"n1": 60,
+"seed": 98,
+"path": "../benchmark_data/data/Dados/[2-10]/60jobs/98.dat"
+},
+{
+"key": "u210_60_81",
+"g": "u210",
+"n1": 60,
+"seed": 81,
+"path": "../benchmark_data/data/Dados/[2-10]/60jobs/81.dat"
+},
+{
+"key": "u210_60_37",
+"g": "u210",
+"n1": 60,
+"seed": 37,
+"path": "../benchmark_data/data/Dados/[2-10]/60jobs/37.dat"
+},
+{
+"key": "u210_60_92",
+"g": "u210",
+"n1": 60,
+"seed": 92,
+"path": "../benchmark_data/data/Dados/[2-10]/60jobs/92.dat"
+},
+{
+"key": "u210_70_223",
+"g": "u210",
+"n1": 70,
+"seed": 223,
+"path": "../benchmark_data/data/Dados/[2-10]/70jobs/223.dat"
+},
+{
+"key": "u210_70_83",
+"g": "u210",
+"n1": 70,
+"seed": 83,
+"path": "../benchmark_data/data/Dados/[2-10]/70jobs/83.dat"
+},
+{
+"key": "u210_70_175",
+"g": "u210",
+"n1": 70,
+"seed": 175,
+"path": "../benchmark_data/data/Dados/[2-10]/70jobs/175.dat"
+},
+{
+"key": "u210_70_294",
+"g": "u210",
+"n1": 70,
+"seed": 294,
+"path": "../benchmark_data/data/Dados/[2-10]/70jobs/294.dat"
+},
+{
+"key": "u210_70_307",
+"g": "u210",
+"n1": 70,
+"seed": 307,
+"path": "../benchmark_data/data/Dados/[2-10]/70jobs/307.dat"
+},
+{
+"key": "u210_70_284",
+"g": "u210",
+"n1": 70,
+"seed": 284,
+"path": "../benchmark_data/data/Dados/[2-10]/70jobs/284.dat"
+},
+{
+"key": "u210_80_146",
+"g": "u210",
+"n1": 80,
+"seed": 146,
+"path": "../benchmark_data/data/Dados/[2-10]/80jobs/146.dat"
+},
+{
+"key": "u210_80_89",
+"g": "u210",
+"n1": 80,
+"seed": 89,
+"path": "../benchmark_data/data/Dados/[2-10]/80jobs/89.dat"
+},
+{
+"key": "u210_80_28",
+"g": "u210",
+"n1": 80,
+"seed": 28,
+"path": "../benchmark_data/data/Dados/[2-10]/80jobs/28.dat"
+},
+{
+"key": "u210_80_125",
+"g": "u210",
+"n1": 80,
+"seed": 125,
+"path": "../benchmark_data/data/Dados/[2-10]/80jobs/125.dat"
+},
+{
+"key": "u210_80_193",
+"g": "u210",
+"n1": 80,
+"seed": 193,
+"path": "../benchmark_data/data/Dados/[2-10]/80jobs/193.dat"
+},
+{
+"key": "u210_80_92",
+"g": "u210",
+"n1": 80,
+"seed": 92,
+"path": "../benchmark_data/data/Dados/[2-10]/80jobs/92.dat"
+}
+]

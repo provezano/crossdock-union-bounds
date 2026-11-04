@@ -1,0 +1,25 @@
+instances with base: 300; arms: {'onone': 30, 'v2cs': 30, 'v2lbu': 300}
+
+== primary arm v2lbu, tl 300: n = 300; solved (by any arm) 62 = 20.67%; solved by primary 59
+  n1=20: n 150, solved 62, by group: m2 21/30, m4 0/30, m10 24/30, u24 5/30, u210 12/30
+  n1=30: n 150, solved 0, by group: m2 0/30, m4 0/30, m10 0/30, u24 0/30, u210 0/30
+
+LB* (max fwd, rev) = OPT on 3/62 solved = 4.84%; LB_U* fwd = OPT on 3
+LB* gap to OPT (OPT-LB)/OPT on solved: mean 5.74%, median 5.14%, max 15.38%
+Chen-Song LB gap to OPT on solved: mean 9.57%
+  true gap HgR                    mean 3.38% [2.93%, 3.84%], median 3.39%, max 10.64%, at OPT 0.016
+  true gap EACDC (1 default run)  mean 1.71% [1.35%, 2.05%], median 1.30%, max 5.19%, at OPT 0.065
+  true gap ILS 4 s                mean 0.43% [0.31%, 0.56%], median 0.25%, max 2.07%, at OPT 0.403
+  true gap ILS 10 s               mean 0.41% [0.29%, 0.54%], median 0.25%, max 2.07%, at OPT 0.419
+  n1=20 (solved 62): LB*=OPT 0.048; HgR 3.38%; EACDC 1.71%; ILS10 0.41%
+
+unsolved 238: residual (bestUB - bestLB)/bestUB mean 7.53%, max 18.15%; exact method raised LB* by mean 0.47%
+
+ILS10 vs LB*: mean gap (UB-LB)/LB 8.48%
+  on solved: LB structure share 6.24% + UB slack 0.44%
+
+== time to prove optimality, paired subsets
+  v2lbu vs v2cs: n 30; solved 13 vs 14; only-v2lbu 0, only-v2cs 1; censored mean time 207.4 vs 204.0 s; median 300.0 vs 300.0; on both-solved (13): median 47.5 vs 49.9 s, geo-mean ratio 1.01
+     final proven LB: v2lbu > v2cs in 0.40, < in 0.03
+  v2lbu vs onone: n 30; solved 13 vs 12; only-v2lbu 4, only-onone 3; censored mean time 207.4 vs 210.6 s; median 300.0 vs 300.0; on both-solved (9): median 35.7 vs 10.2 s, geo-mean ratio 0.96
+     final proven LB: v2lbu > onone in 0.60, < in 0.10

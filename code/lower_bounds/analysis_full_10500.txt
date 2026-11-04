@@ -1,0 +1,13 @@
+all      n=10500 gain%= 15.00 (max 29.14, worse 0) gapHgR_vsG0= 26.1 vsNew=  9.8 pub= 26.3 exact=0.66 cpu=1.2/10
+n1=20    n=1500 gain%=  4.97 (max 23.03, worse 0) gapHgR_vsG0= 17.4 vsNew= 11.9 pub= 17.7 exact=1.00 cpu=0.0/0
+n1=30    n=1500 gain%=  9.56 (max 23.89, worse 0) gapHgR_vsG0= 22.8 vsNew= 12.3 pub= 23.0 exact=1.00 cpu=0.0/0
+n1=40    n=1500 gain%= 14.48 (max 25.58, worse 0) gapHgR_vsG0= 26.3 vsNew= 10.4 pub= 26.5 exact=1.00 cpu=0.2/0
+n1=50    n=1500 gain%= 17.89 (max 29.14, worse 0) gapHgR_vsG0= 28.1 vsNew=  8.7 pub= 28.3 exact=0.99 cpu=0.6/2
+n1=60    n=1500 gain%= 19.36 (max 28.81, worse 0) gapHgR_vsG0= 28.9 vsNew=  8.0 pub= 29.2 exact=0.55 cpu=1.6/5
+n1=70    n=1500 gain%= 19.41 (max 28.37, worse 0) gapHgR_vsG0= 29.3 vsNew=  8.3 pub= 29.6 exact=0.07 cpu=2.6/7
+n1=80    n=1500 gain%= 19.35 (max 27.48, worse 0) gapHgR_vsG0= 29.8 vsNew=  8.8 pub= 30.0 exact=0.00 cpu=3.2/10
+g=m10    n=2100 gain%= 12.75 (max 25.65, worse 0) gapHgR_vsG0= 30.3 vsNew= 15.8 pub= 30.4 exact=0.66 cpu=1.2/8
+g=m2     n=2100 gain%= 19.34 (max 28.81, worse 0) gapHgR_vsG0= 26.2 vsNew=  5.8 pub= 26.9 exact=0.65 cpu=1.2/9
+g=m4     n=2100 gain%= 18.02 (max 28.32, worse 0) gapHgR_vsG0= 29.1 vsNew=  9.5 pub= 29.2 exact=0.65 cpu=1.2/8
+g=u210   n=2100 gain%= 10.02 (max 27.70, worse 0) gapHgR_vsG0= 21.5 vsNew= 10.4 pub= 21.6 exact=0.67 cpu=1.1/10
+g=u24    n=2100 gain%= 14.88 (max 29.14, worse 0) gapHgR_vsG0= 23.3 vsNew=  7.4 pub= 23.6 exact=0.66 cpu=1.2/9

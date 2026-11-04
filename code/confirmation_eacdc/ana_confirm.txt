@@ -1,0 +1,27 @@
+runs: 630; interpreters: Counter({('3.12.14', 'machine-B'): 630})
+ILS-first runs where EACDC CPU > ILS horizon (ILS read at horizon, conservative): 0; runs where ILS made fewer evals than EACDC: 0
+== per-run matched ILS vs full EACDC (seeds [11, 12, 13], 210 instances)
+  CPU-matched (ILS at the run's own EACDC CPU)               n=210 -0.57% [-0.67, -0.46]  W/T/L 161/5/44
+  eval-matched: EACDC evalPop calls (conservative)           n=210 -0.48% [-0.58, -0.37]  W/T/L 158/2/50
+  eval-matched: evalPop + init schedules                     n=210 -0.53% [-0.63, -0.42]  W/T/L 161/5/44
+  by n1 (CPU-matched / eval-matched gp):
+    n1=20: -0.97 / -0.92 (n=30)
+    n1=30: -0.86 / -0.78 (n=30)
+    n1=40: -0.50 / -0.37 (n=30)
+    n1=50: -0.36 / -0.27 (n=30)
+    n1=60: -0.39 / -0.29 (n=30)
+    n1=70: -0.52 / -0.44 (n=30)
+    n1=80: -0.36 / -0.28 (n=30)
+  run-level CPU-matched diff by arm order: {'eacdc': (-0.545, 315), 'ils': (-0.585, 315)}
+  EACDC CPU per run: mean 4.42 s (median 3.15, max 23.01); evals EACDC mean 30476; ILS evals within the same CPU mean 16200 (ratio 0.52)
+== LB: max(LB_U*, rev) vs ceil(best non-own = max(PCH, Chen-Song)) n=210: +14.90% [+13.78, +15.96]; quantiles 0/10/50/90/100: [0.0, 0.0, 16.89, 24.34, 27.23]; LB > best UB: 0/210; LB < baseline: 0
+   LB_U* alone: +14.69%;  exact (fwd) 0.79
+   n1=20: +5.10%
+   n1=30: +9.86%
+   n1=40: +13.60%
+   n1=50: +16.18%
+   n1=60: +19.87%
+   n1=70: +19.68%
+   n1=80: +20.02%
+   gap best-UB vs new LB: mean 6.22%
+== prereg Holm: {'E1': ('p=1.00e-05', 'adj=3.00e-05'), 'E2': ('p=1.00e-05', 'adj=3.00e-05'), 'E3': ('p=1.00e-05', 'adj=3.00e-05')}

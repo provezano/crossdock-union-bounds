@@ -1,0 +1,17 @@
+runs: 525; interpreters: Counter({('3.12.9', 'machine-A'): 525})
+ILS-first runs where EACDC CPU > ILS horizon (ILS read at horizon, conservative): 0; runs where ILS made fewer evals than EACDC: 0
+== per-run matched ILS vs full EACDC (seeds [1, 2, 3, 4, 5], 105 instances)
+  CPU-matched (ILS at the run's own EACDC CPU)               n=105 -0.74% [-0.88, -0.62]  W/T/L 94/1/10
+  eval-matched: EACDC evalPop calls (conservative)           n=105 -0.66% [-0.80, -0.53]  W/T/L 91/1/13
+  eval-matched: evalPop + init schedules                     n=105 -0.70% [-0.84, -0.57]  W/T/L 94/1/10
+  by n1 (CPU-matched / eval-matched gp):
+    n1=20: -1.20 / -1.10 (n=15)
+    n1=30: -0.75 / -0.64 (n=15)
+    n1=40: -0.49 / -0.46 (n=15)
+    n1=50: -0.90 / -0.82 (n=15)
+    n1=60: -0.72 / -0.66 (n=15)
+    n1=70: -0.73 / -0.64 (n=15)
+    n1=80: -0.42 / -0.33 (n=15)
+  run-level CPU-matched diff by arm order: {'eacdc': (-0.766, 263), 'ils': (-0.721, 262)}
+  EACDC CPU per run: mean 5.66 s (median 3.54, max 29.39); evals EACDC mean 30924; ILS evals within the same CPU mean 16935 (ratio 0.53)
+== determinism vs step 2 default EACDC runs: identical best 471/525, wrapper value worse than GA-returned value in 0 (wrapper = best ever evaluated, GA returns its final selBest, so wrapper <= GA); CPU(this window)/CPU(step 2 window): median 1.40, p10 1.29, p90 1.57, max 1.68

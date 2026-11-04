@@ -1,0 +1,45 @@
+instances with base: 300 / 300; arms present: {'v2lbu': 300, 'v3': 300, 'tim': 150, 'onone': 300}
+integrity violations: []
+
+== Confirmatory family S (solved within the limit; exact McNemar, Holm over 3) ==
+v3 vs v2lbu: n=300 solved 137 vs 47; only v3 92, only v2lbu 2; p=4.51e-25; Holm p=4.51e-25
+v3 vs onone: n=300 solved 137 vs 45; only v3 94, only onone 2; p=1.18e-25; Holm p=3.53e-25
+v3 vs tim: n=150 solved 100 vs 12; only v3 89, only tim 1; p=1.47e-25; Holm p=3.53e-25
+
+== Confirmatory family G (final gap (hi-lo)/hi %, paired bootstrap 10,000, Holm over 3) ==
+v3 vs v2lbu: n=300 mean gap 3.409% vs 6.322%; diff -2.912 [-3.227, -2.605] pp; lower/tie/higher 226/71/3; p=0.0001; Holm p=0.0003
+v3 vs onone: n=300 mean gap 3.409% vs 35.084%; diff -31.675 [-33.633, -29.726] pp; lower/tie/higher 254/44/2; p=0.0001; Holm p=0.0003
+v3 vs tim: n=150 mean gap 1.404% vs 40.351%; diff -38.947 [-42.825, -34.922] pp; lower/tie/higher 137/11/2; p=0.0001; Holm p=0.0003
+
+== Descriptive ==
+v3       n1=20: solved 100/150 {'m2': 29, 'm4': 10, 'm10': 21, 'u24': 24, 'u210': 16}; mean gap 1.404%; CPU mean/max 133.8/301.4
+v3       n1=30: solved 37/150 {'m2': 26, 'm4': 0, 'm10': 0, 'u24': 10, 'u210': 1}; mean gap 5.414%; CPU mean/max 247.2/302.9
+v2lbu    n1=20: solved 47/150 {'m2': 10, 'm4': 0, 'm10': 22, 'u24': 3, 'u210': 12}; mean gap 4.980%; CPU mean/max 228.2/306.6
+v2lbu    n1=30: solved 0/150 {'m2': 0, 'm4': 0, 'm10': 0, 'u24': 0, 'u210': 0}; mean gap 7.664%; CPU mean/max 299.6/302.3
+onone    n1=20: solved 45/150 {'m2': 7, 'm4': 0, 'm10': 22, 'u24': 4, 'u210': 12}; mean gap 25.843%; CPU mean/max 229.6/306.1
+onone    n1=30: solved 0/150 {'m2': 0, 'm4': 0, 'm10': 0, 'u24': 0, 'u210': 0}; mean gap 44.325%; CPU mean/max 299.8/303.8
+tim      n1=20: solved 12/150 {'m2': 0, 'm4': 0, 'm10': 10, 'u24': 0, 'u210': 2}; mean gap 40.351%; CPU mean/max 285.1/318.0
+solved by v3 and v2lbu: 45; median CPU to proof 7.1 vs 35.1 s
+v3 solved share: fresh 137/300 (development set, other host: 161/300)
+tim: statuses {'HighsModelStatus.kInterrupt': 72, 'HighsModelStatus.kTimeLimit': 66, 'HighsModelStatus.kOptimal': 12} ; CPU max 318.0 ; wall max 318.5
+max CPU per arm (limit 300 ): {'v3': 302.9, 'v2lbu': 306.6, 'onone': 306.1, 'tim': 318.0}
+
+== Exploratory ablation (unadjusted; same instances as each ablation arm) ==
+v3norev not run
+v3nofwd not run
+v3noht not run
+
+== R1: host stratum (paired tests per host; level endpoints per host only) ==
+instances with arms on >1 host (should be 0): []
+-- host machine-A: 129 instances
+   v3 vs v2lbu: n=129 solved 74 vs 30 (only v3 45, only v2lbu 1; McNemar p=1.34e-12); gap diff -3.291 [-3.846, -2.769] pp
+   v3 vs onone: n=129 solved 74 vs 29 (only v3 45, only onone 0; McNemar p=5.68e-14); gap diff -29.404 [-32.573, -26.096] pp
+   v3 vs tim: n=66 solved 53 vs 9 (only v3 45, only tim 1; McNemar p=1.34e-12); gap diff -34.205 [-39.024, -29.146] pp
+   v3 solved share n1=20: 53/66
+   v3 solved share n1=30: 21/63
+-- host machine-D: 171 instances
+   v3 vs v2lbu: n=171 solved 63 vs 17 (only v3 47, only v2lbu 1; McNemar p=3.48e-13); gap diff -2.627 [-3.000, -2.267] pp
+   v3 vs onone: n=171 solved 63 vs 16 (only v3 49, only onone 2; McNemar p=1.18e-12); gap diff -33.388 [-35.695, -30.934] pp
+   v3 vs tim: n=84 solved 47 vs 3 (only v3 44, only tim 0; McNemar p=1.14e-13); gap diff -42.672 [-48.465, -37.080] pp
+   v3 solved share n1=20: 47/84
+   v3 solved share n1=30: 16/87

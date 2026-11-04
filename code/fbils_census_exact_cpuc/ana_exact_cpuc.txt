@@ -1,0 +1,17 @@
+v3 results: 300/300
+n1=20: v3 / v2lbu / any-step 1-arm solved: m2 30/19/21 of 30; m4 14/0/0 of 30; m10 25/24/24 of 30; u24 30/4/5 of 30; u210 15/12/12 of 30  TOTAL 114/59/62 of 150
+n1=30: v3 / v2lbu / any-step 1-arm solved: m2 24/0/0 of 30; m4 0/0/0 of 30; m10 0/0/0 of 30; u24 14/0/0 of 30; u210 9/0/0 of 30  TOTAL 47/0/0 of 150
+both solved (v3, v2lbu): 55; median time 4.7 vs 47.0 s; geo-mean ratio 0.317; v3 faster on 64%
+solved only by v3: 103; only by a step 1 arm: 4 ['m10_20_102', 'm10_20_176', 'u210_20_102', 'u210_20_80']
+unsolved by v3 (139): residual (hi-lo)/hi v3 5.35% vs step 1 best 8.86%; v3 final LB vs LB* +4.53%; vs step 1 best LB +3.91%
+enlarged solved set: 165 (n1=20 118, n1=30 47)
+  n1=20: LB*=OPT 3/118; (OPT-LB*)/OPT 6.62%; gaps to OPT: HgR 3.53%  EACDC 1.59%  ILS4 0.42%  ILS10 0.40%
+     m2: n=30 (OPT-LB*)/OPT 4.49%
+     m4: n=14 (OPT-LB*)/OPT 10.26%
+     m10: n=27 (OPT-LB*)/OPT 8.70%
+     u24: n=30 (OPT-LB*)/OPT 7.35%
+     u210: n=17 (OPT-LB*)/OPT 2.80%
+  n1=30: LB*=OPT 0/47; (OPT-LB*)/OPT 3.63%; gaps to OPT: HgR 2.73%  EACDC 0.90%  ILS4 0.18%  ILS10 0.10%
+     m2: n=24 (OPT-LB*)/OPT 3.14%
+     u24: n=14 (OPT-LB*)/OPT 4.16%
+     u210: n=9 (OPT-LB*)/OPT 4.12%

@@ -1,0 +1,247 @@
+[
+{
+"key": "m2_20_80",
+"g": "m2",
+"n1": 20,
+"seed": 80,
+"path": "../benchmark_data/data/Dados/2maquinas/20jobs/80.dat"
+},
+{
+"key": "m2_30_160",
+"g": "m2",
+"n1": 30,
+"seed": 160,
+"path": "../benchmark_data/data/Dados/2maquinas/30jobs/160.dat"
+},
+{
+"key": "m2_40_87",
+"g": "m2",
+"n1": 40,
+"seed": 87,
+"path": "../benchmark_data/data/Dados/2maquinas/40jobs/87.dat"
+},
+{
+"key": "m2_50_210",
+"g": "m2",
+"n1": 50,
+"seed": 210,
+"path": "../benchmark_data/data/Dados/2maquinas/50jobs/210.dat"
+},
+{
+"key": "m2_60_88",
+"g": "m2",
+"n1": 60,
+"seed": 88,
+"path": "../benchmark_data/data/Dados/2maquinas/60jobs/88.dat"
+},
+{
+"key": "m2_70_71",
+"g": "m2",
+"n1": 70,
+"seed": 71,
+"path": "../benchmark_data/data/Dados/2maquinas/70jobs/71.dat"
+},
+{
+"key": "m2_80_138",
+"g": "m2",
+"n1": 80,
+"seed": 138,
+"path": "../benchmark_data/data/Dados/2maquinas/80jobs/138.dat"
+},
+{
+"key": "m4_20_120",
+"g": "m4",
+"n1": 20,
+"seed": 120,
+"path": "../benchmark_data/data/Dados/4maquinas/20jobs/120.dat"
+},
+{
+"key": "m4_30_79",
+"g": "m4",
+"n1": 30,
+"seed": 79,
+"path": "../benchmark_data/data/Dados/4maquinas/30jobs/79.dat"
+},
+{
+"key": "m4_40_299",
+"g": "m4",
+"n1": 40,
+"seed": 299,
+"path": "../benchmark_data/data/Dados/4maquinas/40jobs/299.dat"
+},
+{
+"key": "m4_50_174",
+"g": "m4",
+"n1": 50,
+"seed": 174,
+"path": "../benchmark_data/data/Dados/4maquinas/50jobs/174.dat"
+},
+{
+"key": "m4_60_109",
+"g": "m4",
+"n1": 60,
+"seed": 109,
+"path": "../benchmark_data/data/Dados/4maquinas/60jobs/109.dat"
+},
+{
+"key": "m4_70_245",
+"g": "m4",
+"n1": 70,
+"seed": 245,
+"path": "../benchmark_data/data/Dados/4maquinas/70jobs/245.dat"
+},
+{
+"key": "m4_80_304",
+"g": "m4",
+"n1": 80,
+"seed": 304,
+"path": "../benchmark_data/data/Dados/4maquinas/80jobs/304.dat"
+},
+{
+"key": "m10_20_18",
+"g": "m10",
+"n1": 20,
+"seed": 18,
+"path": "../benchmark_data/data/Dados/10maquinas/20jobs/18.dat"
+},
+{
+"key": "m10_30_240",
+"g": "m10",
+"n1": 30,
+"seed": 240,
+"path": "../benchmark_data/data/Dados/10maquinas/30jobs/240.dat"
+},
+{
+"key": "m10_40_81",
+"g": "m10",
+"n1": 40,
+"seed": 81,
+"path": "../benchmark_data/data/Dados/10maquinas/40jobs/81.dat"
+},
+{
+"key": "m10_50_22",
+"g": "m10",
+"n1": 50,
+"seed": 22,
+"path": "../benchmark_data/data/Dados/10maquinas/50jobs/22.dat"
+},
+{
+"key": "m10_60_222",
+"g": "m10",
+"n1": 60,
+"seed": 222,
+"path": "../benchmark_data/data/Dados/10maquinas/60jobs/222.dat"
+},
+{
+"key": "m10_70_238",
+"g": "m10",
+"n1": 70,
+"seed": 238,
+"path": "../benchmark_data/data/Dados/10maquinas/70jobs/238.dat"
+},
+{
+"key": "m10_80_216",
+"g": "m10",
+"n1": 80,
+"seed": 216,
+"path": "../benchmark_data/data/Dados/10maquinas/80jobs/216.dat"
+},
+{
+"key": "u24_20_118",
+"g": "u24",
+"n1": 20,
+"seed": 118,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/20jobs/118.dat"
+},
+{
+"key": "u24_30_102",
+"g": "u24",
+"n1": 30,
+"seed": 102,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/30jobs/102.dat"
+},
+{
+"key": "u24_40_215",
+"g": "u24",
+"n1": 40,
+"seed": 215,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/40jobs/215.dat"
+},
+{
+"key": "u24_50_174",
+"g": "u24",
+"n1": 50,
+"seed": 174,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/50jobs/174.dat"
+},
+{
+"key": "u24_60_191",
+"g": "u24",
+"n1": 60,
+"seed": 191,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/60jobs/191.dat"
+},
+{
+"key": "u24_70_87",
+"g": "u24",
+"n1": 70,
+"seed": 87,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/70jobs/87.dat"
+},
+{
+"key": "u24_80_257",
+"g": "u24",
+"n1": 80,
+"seed": 257,
+"path": "../benchmark_data/data/Dados/[2-4]maquinas/80jobs/257.dat"
+},
+{
+"key": "u210_20_283",
+"g": "u210",
+"n1": 20,
+"seed": 283,
+"path": "../benchmark_data/data/Dados/[2-10]/20jobs/283.dat"
+},
+{
+"key": "u210_30_166",
+"g": "u210",
+"n1": 30,
+"seed": 166,
+"path": "../benchmark_data/data/Dados/[2-10]/30jobs/166.dat"
+},
+{
+"key": "u210_40_237",
+"g": "u210",
+"n1": 40,
+"seed": 237,
+"path": "../benchmark_data/data/Dados/[2-10]/40jobs/237.dat"
+},
+{
+"key": "u210_50_45",
+"g": "u210",
+"n1": 50,
+"seed": 45,
+"path": "../benchmark_data/data/Dados/[2-10]/50jobs/45.dat"
+},
+{
+"key": "u210_60_236",
+"g": "u210",
+"n1": 60,
+"seed": 236,
+"path": "../benchmark_data/data/Dados/[2-10]/60jobs/236.dat"
+},
+{
+"key": "u210_70_98",
+"g": "u210",
+"n1": 70,
+"seed": 98,
+"path": "../benchmark_data/data/Dados/[2-10]/70jobs/98.dat"
+},
+{
+"key": "u210_80_70",
+"g": "u210",
+"n1": 80,
+"seed": 70,
+"path": "../benchmark_data/data/Dados/[2-10]/80jobs/70.dat"
+}
+]

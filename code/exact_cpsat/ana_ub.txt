@@ -1,0 +1,10 @@
+runs 315, instances 105
+cpc vs ILS at 4 s: CP-SAT/ILS - 1 = 6.62% [6.12%, 7.14%], CP-SAT W/T/L 2/0/103, n=105, no-solution instances 0
+   by n1: 20: 3.49% (W/T/L 2/0/13), 30: 6.20% (W/T/L 0/0/15), 40: 7.47% (W/T/L 0/0/15), 50: 8.33% (W/T/L 0/0/15), 60: 6.83% (W/T/L 0/0/15), 70: 7.27% (W/T/L 0/0/15), 80: 6.78% (W/T/L 0/0/15)
+cpw vs ILS at 4 s: CP-SAT/ILS - 1 = 1.73% [1.54%, 1.94%], CP-SAT W/T/L 2/1/102, n=105, no-solution instances 0
+   by n1: 20: 1.70% (W/T/L 2/1/12), 30: 2.26% (W/T/L 0/0/15), 40: 2.13% (W/T/L 0/0/15), 50: 1.46% (W/T/L 0/0/15), 60: 1.84% (W/T/L 0/0/15), 70: 1.61% (W/T/L 0/0/15), 80: 1.14% (W/T/L 0/0/15)
+cpc vs ILS at 10 s: CP-SAT/ILS - 1 = 6.17% [5.66%, 6.69%], CP-SAT W/T/L 3/1/101, n=105, no-solution instances 0
+   by n1: 20: 2.24% (W/T/L 3/1/11), 30: 5.58% (W/T/L 0/0/15), 40: 7.11% (W/T/L 0/0/15), 50: 8.08% (W/T/L 0/0/15), 60: 6.64% (W/T/L 0/0/15), 70: 6.91% (W/T/L 0/0/15), 80: 6.66% (W/T/L 0/0/15)
+cpw vs ILS at 10 s: CP-SAT/ILS - 1 = 1.81% [1.60%, 2.02%], CP-SAT W/T/L 3/1/101, n=105, no-solution instances 0
+   by n1: 20: 1.35% (W/T/L 3/1/11), 30: 2.30% (W/T/L 0/0/15), 40: 2.33% (W/T/L 0/0/15), 50: 1.68% (W/T/L 0/0/15), 60: 1.97% (W/T/L 0/0/15), 70: 1.78% (W/T/L 0/0/15), 80: 1.24% (W/T/L 0/0/15)
+CP-SAT runs that proved optimality within 10 s: 11 of 315

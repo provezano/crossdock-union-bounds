@@ -1,0 +1,4 @@
+10500
+all 10500 | LP>census 0 | LP raw > L0: 0.0 | LPint raw > L0: 0.0 | mean (census-LP)/census 12.75% | mean (census-L0)/census 12.75% | mean LPraw/L0 0.9787 | nV median/max 2.0 3 | cpu fwd+rev mean/max 0.002/0.069 s
+n1>=60 4500 | LP>census 0 | LP raw > L0: 0.0 | LPint raw > L0: 0.0 | mean (census-LP)/census 16.42% | mean (census-L0)/census 16.42% | mean LPraw/L0 0.9813 | nV median/max 2.0 2 | cpu fwd+rev mean/max 0.003/0.069 s
+n1<=40 4500 | LP>census 0 | LP raw > L0: 0.0 | LPint raw > L0: 0.0 | mean (census-LP)/census 8.34% | mean (census-L0)/census 8.34% | mean LPraw/L0 0.9751 | nV median/max 2.0 3 | cpu fwd+rev mean/max 0.001/0.003 s

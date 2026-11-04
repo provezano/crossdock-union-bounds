@@ -1,0 +1,6 @@
+ours slope vs n1 1.61  at n1=80: 8194
+orig slope vs n1 2.09  at n1=80: 57544
+fast slope vs n1 1.85  at n1=80: 22711
+20 orig/ours 3.71 fast/ours 2.01  ours/(n1n2+n2^2) 1.26
+50 orig/ours 5.82 fast/ours 2.53  ours/(n1n2+n2^2) 0.82
+80 orig/ours 7.10 fast/ours 2.79  ours/(n1n2+n2^2) 0.70

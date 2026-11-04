@@ -1,0 +1,78 @@
+== out_small: n=300
+  [base] solved 300/300
+    LP > UPB: 1/300   LP < UPB: 189   LP == UPB: 110
+    LP/UPB mean 0.8963 [0.8838, 0.9086]
+    LP/ref mean 0.8507 [0.8366, 0.8649]  (ref = OPT or HgR UB)
+    VALIDITY: raw LP > ref on 0
+    CPU s mean 0.06 median 0.02 max 0.5
+  [A] solved 300/300
+    LP > UPB: 4/300   LP < UPB: 186   LP == UPB: 110
+    LP/UPB mean 0.9437 [0.9370, 0.9505]
+    LP/ref mean 0.8948 [0.8855, 0.9042]  (ref = OPT or HgR UB)
+    VALIDITY: raw LP > ref on 0
+    CPU s mean 0.58 median 0.38 max 3.1
+    A/base mean 1.0624; strictly higher on 150/300
+    rounds mean 0.0    cuts_B mean 0.0    cuts_C mean 0.0
+  [AC] solved 300/300
+    LP > UPB: 20/300   LP < UPB: 153   LP == UPB: 127
+    LP/UPB mean 0.9742 [0.9699, 0.9786]
+    LP/ref mean 0.9231 [0.9160, 0.9301]  (ref = OPT or HgR UB)
+    VALIDITY: raw LP > ref on 0
+    CPU s mean 1.08 median 0.73 max 6.0
+    AC/base mean 1.1005; strictly higher on 173/300
+    rounds mean 0.7    cuts_B mean 0.0    cuts_C mean 1.7
+  [ABC] solved 300/300
+    LP > UPB: 38/300   LP < UPB: 145   LP == UPB: 117
+    LP/UPB mean 0.9773 [0.9728, 0.9816]
+    LP/ref mean 0.9258 [0.9188, 0.9327]  (ref = OPT or HgR UB)
+    VALIDITY: raw LP > ref on 0
+    CPU s mean 11.59 median 4.29 max 107.5
+    ABC/base mean 1.1034; strictly higher on 195/300
+    rounds mean 11.4    cuts_B mean 57.4    cuts_C mean 1.7
+  base vs eacdc_matched_tim recorded TIM-LP: max |diff| = 0.00e+00
+   n1=4: ABC/UPB 0.988  ABC>UPB 3  ABC/OPT 0.965
+   n1=5: ABC/UPB 0.986  ABC>UPB 10  ABC/OPT 0.944
+   n1=6: ABC/UPB 0.982  ABC>UPB 11  ABC/OPT 0.934
+   n1=7: ABC/UPB 0.968  ABC>UPB 10  ABC/OPT 0.905
+   n1=8: ABC/UPB 0.962  ABC>UPB 4  ABC/OPT 0.882
+== out_real: n=50
+  [base] solved 50/50
+    LP > UPB: 0/50   LP < UPB: 47   LP == UPB: 3
+    LP/UPB mean 0.6867 [0.6404, 0.7348]
+    LP/ref mean 0.6160 [0.5768, 0.6570]  (ref = OPT or HgR UB)
+    VALIDITY: raw LP > ref on 0
+    CPU s mean 23.70 median 8.54 max 108.3
+  [ABC] solved 50/50
+    LP > UPB: 2/50   LP < UPB: 45   LP == UPB: 3
+    LP/UPB mean 0.8962 [0.8735, 0.9182]
+    LP/ref mean 0.8064 [0.7861, 0.8267]  (ref = OPT or HgR UB)
+    VALIDITY: raw LP > ref on 0
+    CPU s mean 450.95 median 353.96 max 1117.1
+    ABC/base mean 1.3610; strictly higher on 48/50
+    rounds mean 25.0    cuts_B mean 351.9    cuts_C mean 4.7
+  base vs eacdc_matched_tim recorded TIM-LP: max |diff| = 0.00e+00
+== out_large: n=9
+  [base] solved 6/9
+    LP > UPB: 0/6   LP < UPB: 6   LP == UPB: 0
+    LP/UPB mean 0.5593 [0.4566, 0.6619]
+    LP/ref mean 0.4995 [0.4221, 0.5769]  (ref = OPT or HgR UB)
+    VALIDITY: raw LP > ref on 0
+    CPU s mean 727.65 median 266.99 max 1799.7
+  [ABC] solved 8/9
+    LP > UPB: 0/8   LP < UPB: 8   LP == UPB: 0
+    LP/UPB mean 0.7854 [0.7000, 0.8712]
+    LP/ref mean 0.7182 [0.6519, 0.7823]  (ref = OPT or HgR UB)
+    VALIDITY: raw LP > ref on 0
+    CPU s mean 835.84 median 910.23 max 1499.3
+    ABC/base mean 1.4288; strictly higher on 5/5
+    rounds mean 10.3    cuts_B mean 321.1    cuts_C mean 5.1
+  base vs eacdc_matched_tim recorded TIM-LP: max |diff| = 0.00e+00
+    m2 30 232 UPB 1181.0 {'base': (489.3, 267.0, 'HighsModelStatus.kOptimal'), 'ABC': (803.9, 809.8, 'HighsModelStatus.kSolveError')}
+    m2 40 313 UPB 1627.0 {'base': (None, 1792.4, 'HighsModelStatus.kTimeLimit'), 'ABC': (1219.0, 1030.6, 'HighsModelStatus.kTimeLimit')}
+    m2 50 209 UPB 2632.0 {'base': (None, 1793.6, 'HighsModelStatus.kTimeLimit'), 'ABC': (1638.5, 1499.3, 'HighsModelStatus.kTimeLimit')}
+    m4 30 115 UPB 618.0 {'base': (359.8, 19.2, 'HighsModelStatus.kOptimal'), 'ABC': (530.9, 434.7, 'HighsModelStatus.kSolveError')}
+    m4 40 69 UPB 807.0 {'base': (382.8, 138.2, 'HighsModelStatus.kOptimal'), 'ABC': (None, 238.0, 'HighsModelStatus.kSolveError')}
+    m4 50 253 UPB 1128.0 {'base': (481.0, 697.4, 'HighsModelStatus.kOptimal'), 'ABC': (716.2, 910.2, 'HighsModelStatus.kTimeLimit')}
+    u210 30 87 UPB 269.0 {'base': (199.5, 2.3, 'HighsModelStatus.kOptimal'), 'ABC': (230.4, 759.2, 'optimal')}
+    u210 40 112 UPB 405.0 {'base': (288.2, 39.0, 'HighsModelStatus.kOptimal'), 'ABC': (398.2, 912.4, 'HighsModelStatus.kTimeLimit')}
+    u210 50 208 UPB 1248.0 {'base': (None, 1799.7, 'HighsModelStatus.kTimeLimit'), 'ABC': (1112.5, 928.3, 'HighsModelStatus.kTimeLimit')}

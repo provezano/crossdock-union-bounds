@@ -1,0 +1,5 @@
+tiny instances: 4000
+ bench n=2000: L_CS > LB_U* (fwd) 164; ceil 159 | BLB > LB* 308; ceil 300 | door-cap bound < L_CS 0 | door-cap bound > OPT 0 | LB_U* > OPT 0 | door-cap == max(LB_U*, L_CS) 2000/2000
+ free  n=2000: L_CS > LB_U* (fwd) 96; ceil 69 | BLB > LB* 145; ceil 109 | door-cap bound < L_CS 0 | door-cap bound > OPT 0 | LB_U* > OPT 0 | door-cap == max(LB_U*, L_CS) 2000/2000
+benchmark n1 in {20,30}: 3000 instances, walk exact on 3000; ceil(Chen-Song BLB) > LB* computed WITHOUT the Chen-Song term on 785 (26.2%); max excess 10.61%; mean excess on those 2.23%
+ by cell: {'m10/20': 254, 'm10/30': 171, 'm4/20': 13, 'u210/20': 212, 'u210/30': 96, 'u24/20': 38, 'u24/30': 1}

@@ -1,0 +1,9 @@
+# Frozen experimental protocols: label | description | frozen on | sha256 of the protocol document
+protocol-01 | Confirmation of the bound and of the iterated local search against EACDC on 210 fresh benchmark-rule instances (seed 20261103) | 2026-11-02 | ad144173bde9728cb4da77499600e9f1e68f4cc1892a5528b5486f6e47be13d4
+protocol-02 | Bounds and local search on structured (non-benchmark) instances (seed 20261104) | 2026-11-02 | 3edd0a66b71c07cd13a2d97575cb9ea025ea31f1c84d20c3b4979125079bb639
+protocol-03 | Confirmation of the frozen forward-backward local search against EACDC on fresh instances (seed 20261105) | 2026-11-02 | e01bf41ca69320c67964feb2d7bc4149863e76c3e26487ecbf5160a5e035ed4c
+protocol-04 | Re-implementation of EACDCml and evaluation-matched comparison with the forward-backward local search | 2026-11-02 | 5d7c28d19267b2a35061713dcc4c83939b6b0ac37ab1b359deb2ad7b06e455fb
+protocol-05 | Re-implementation of HgR and comparison with the forward-backward local search on fresh instances (seed 20261107) | 2026-11-02 | 93ec9f9906f850c97a5412943503e6989c0245867eff791c3665d0042df88c87
+protocol-06 | Anytime profile at 1x/10x/100x matched evaluations and a tuned iterated greedy | 2026-11-03 | d361d90bd9258d9e01df34d6d2877b3b4632fbd69a8a54ad569c3f1df2bba4a6
+protocol-07 | Frozen exact method CP-UC on 300 fresh instances against CP-LB, CP-plain and a time-indexed MIP (seed 20261193) | 2026-11-03 | 09224e1eaca3ca1a4001826fdc25125b21bc902c70d8f886e36d94e961c20e65
+protocol-08 | Time-indexed LP with strengthened makespan linking, compared with the original time-indexed LP | 2026-11-03 | ce3bca1c7f5bc43c04b8b104458dd4e0a1dd9e0305297c15664c49498141c46d

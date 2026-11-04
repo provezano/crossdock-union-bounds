@@ -1,0 +1,11 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The contents of data/ (generated instance sets, per-instance bounds, best schedules) are licensed under the Creative Commons Attribution 4.0 International License.
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt the material for any purpose, provided you give appropriate credit (cite the
+CITATION.cff entry), provide a link to the licence, and indicate if changes were made.
+
+The per-instance bounds refer to the Cota et al. (2016) benchmark instances, which are not redistributed here.
+The column ub_hgr_published reproduces values published by Fonseca, Nogueira & Ravetti (2019) in their public
+repository; credit them when using that column.

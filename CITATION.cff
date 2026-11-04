@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below (and the paper once published)."
+title: "Code and data for: Union-of-predecessors bounds and a forward–backward local search for multi-door cross-dock truck scheduling"
+type: software
+version: "1.0.0"
+date-released: "2026-11-03"
+doi: "10.5281/zenodo.23933868"
+license: [MIT, CC-BY-4.0]
+authors:
+  - family-names: "Provezano Coutinho"
+    given-names: "Felipe"
+    orcid: "https://orcid.org/0000-0001-7206-5856"
+    affiliation: "Independent researcher"
+keywords: [cross-docking, truck scheduling, lower bounds, parallel machines, precedence, iterated local search, CP-SAT]
+references:
+  - type: article
+    title: "Time-indexed formulation and polynomial time heuristic for a multi-dock truck scheduling problem in a cross-docking centre"
+    authors: [{family-names: Cota}, {family-names: Gimenez}, {family-names: Araújo}, {family-names: Nogueira}, {family-names: de Souza}, {family-names: Ravetti}]
+    journal: "Computers & Industrial Engineering"
+    volume: 95
+    start: 135
+    end: 143
+    year: 2016

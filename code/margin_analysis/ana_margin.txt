@@ -1,0 +1,109 @@
+== bench: m_cpu -0.565 [-0.670, -0.462] (n=210)  m_ev -0.478 [-0.586, -0.372] (n=210)
+   h_E 7.13%  h_best 6.22%  gainU 12.52%  dens 0.500  R 0.387
+   binding: {'union': 187, 'cs': 21, 'other': 2}
+     bind=union: m_cpu -0.488 [-0.586, -0.390] (n=187) m_ev -0.399  h_E 6.80%
+     bind=cs   : m_cpu -1.031 [-1.341, -0.724] (n=21) m_ev -0.954  h_E 10.18%
+     bind=other: m_cpu -2.878 [-4.225, -1.531] (n=2) m_ev -2.878  h_E 6.78%
+   spearman m_cpu~h_E: rho=-0.45 p=2.5e-04;  m_ev~h_E: rho=-0.46 p=2.5e-04
+   spearman m_cpu~h_best: rho=-0.29 p=2.5e-04;  m_ev~h_best: rho=-0.30 p=2.5e-04
+   spearman m_cpu~gainU: rho=+0.30 p=2.5e-04;  m_ev~gainU: rho=+0.30 p=2.5e-04
+   spearman m_cpu~R: rho=-0.38 p=2.5e-04;  m_ev~R: rho=-0.39 p=2.5e-04
+   spearman m_cpu~dens: rho=+0.07 p=3.0e-01;  m_ev~dens: rho=+0.05 p=4.4e-01
+   spearman m_cpu~rho1: rho=-0.04 p=5.6e-01;  m_ev~rho1: rho=-0.04 p=5.7e-01
+   spearman m_cpu~rho2: rho=+0.01 p=9.1e-01;  m_ev~rho2: rho=+0.00 p=9.4e-01
+== struct: m_cpu -0.849 [-1.094, -0.631] (n=58)  m_ev -0.753 [-1.001, -0.531] (n=58)
+   h_E 6.07%  h_best 4.97%  gainU 2.81%  dens 0.315  R 0.446
+   binding: {'cs': 28, 'union': 30}
+     bind=union: m_cpu -0.783 [-0.969, -0.594] (n=30) m_ev -0.665  h_E 6.62%
+     bind=cs   : m_cpu -0.920 [-1.370, -0.519] (n=28) m_ev -0.848  h_E 5.48%
+   spearman m_cpu~h_E: rho=-0.79 p=2.5e-04;  m_ev~h_E: rho=-0.69 p=2.5e-04
+   spearman m_cpu~h_best: rho=-0.66 p=2.5e-04;  m_ev~h_best: rho=-0.57 p=2.5e-04
+   spearman m_cpu~gainU: rho=-0.23 p=9.1e-02;  m_ev~gainU: rho=-0.20 p=1.4e-01
+   spearman m_cpu~R: rho=-0.45 p=2.5e-04;  m_ev~R: rho=-0.37 p=5.2e-03
+   spearman m_cpu~dens: rho=+0.20 p=1.3e-01;  m_ev~dens: rho=+0.15 p=2.7e-01
+   spearman m_cpu~rho1: rho=+0.13 p=3.3e-01;  m_ev~rho1: rho=+0.16 p=2.4e-01
+   spearman m_cpu~rho2: rho=-0.23 p=9.2e-02;  m_ev~rho2: rho=-0.22 p=1.1e-01
+== struct by cell (m_cpu, m_ev, h_E, h_best, gainU, dens, bind)
+   B3      30: -1.30 -1.24  h_E  6.99 h_best  5.27 gainU  0.00 dens 0.21 ['cs', 'cs'] m1/m2 [(6, 10), (9, 8)]
+   B3      60: -0.70 -0.20  h_E  8.56 h_best  7.50 gainU  1.24 dens 0.21 ['union', 'cs'] m1/m2 [(6, 5), (7, 9)]
+   B3     100: -0.38 -0.17  h_E  3.89 h_best  3.40 gainU  0.32 dens 0.21 ['cs', 'union'] m1/m2 [(7, 10), (2, 6)]
+   B6      30: -0.19 -0.19  h_E  2.74 h_best  2.54 gainU  0.00 dens 0.11 ['cs', 'cs'] m1/m2 [(7, 6), (9, 2)]
+   B6      60: -2.43 -2.32  h_E  9.75 h_best  6.72 gainU  0.00 dens 0.12 ['cs', 'cs'] m1/m2 [(5, 6), (6, 6)]
+   B6     100: +0.08 +0.32  h_E  0.94 h_best  0.85 gainU  0.00 dens 0.12 ['cs', 'cs'] m1/m2 [(6, 3), (3, 10)]
+   LB6    150: -0.71 -0.54  h_E  4.18 h_best  3.32 gainU  0.47 dens 0.12 ['cs', 'union'] m1/m2 [(9, 2), (7, 4)]
+   LS2    150: -0.91 -0.82  h_E 17.40 h_best 16.23 gainU  8.19 dens 0.20 ['union', 'union'] m1/m2 [(6, 2), (8, 6)]
+   S1      30: -0.14 -0.14  h_E  0.14 h_best  0.00 gainU  0.00 dens 0.11 ['cs', 'cs'] m1/m2 [(4, 3), (8, 4)]
+   S1      60: -0.94 -0.94  h_E  6.31 h_best  5.19 gainU  0.00 dens 0.10 ['cs', 'cs'] m1/m2 [(7, 5), (2, 10)]
+   S1     100: -3.21 -3.17  h_E 21.21 h_best 17.18 gainU  0.00 dens 0.10 ['cs', 'cs'] m1/m2 [(6, 7), (9, 7)]
+   S2      30: -1.95 -1.82  h_E  7.80 h_best  5.32 gainU  0.00 dens 0.20 ['cs', 'cs'] m1/m2 [(5, 8), (9, 9)]
+   S2      60: -1.33 -1.26  h_E  5.55 h_best  4.00 gainU  0.41 dens 0.21 ['cs', 'union'] m1/m2 [(5, 2), (7, 4)]
+   S2     100: -1.49 -1.24  h_E 20.53 h_best 18.59 gainU 12.53 dens 0.20 ['union', 'union'] m1/m2 [(7, 6), (10, 8)]
+   S3      30: -0.62 -0.62  h_E  3.90 h_best  3.21 gainU  0.00 dens 0.30 ['cs', 'cs'] m1/m2 [(2, 8), (3, 6)]
+   S3      60: -0.80 -0.71  h_E  8.59 h_best  7.48 gainU 15.20 dens 0.31 ['union', 'union'] m1/m2 [(7, 9), (5, 3)]
+   S3     100: -1.17 -1.10  h_E  9.14 h_best  7.78 gainU 10.89 dens 0.30 ['union', 'union'] m1/m2 [(9, 9), (9, 2)]
+   U10x2   30: -0.19 -0.16  h_E  1.74 h_best  1.35 gainU  0.00 dens 0.49 ['cs', 'cs'] m1/m2 [(10, 2), (10, 2)]
+   U10x2   60: -0.62 -0.56  h_E  3.28 h_best  2.50 gainU  1.66 dens 0.51 ['union', 'union'] m1/m2 [(10, 2), (10, 2)]
+   U10x2  100: -0.60 -0.59  h_E  2.29 h_best  1.59 gainU  2.80 dens 0.50 ['union', 'union'] m1/m2 [(10, 2), (10, 2)]
+   U2x10   30: +0.46 +0.68  h_E  2.71 h_best  2.61 gainU  0.00 dens 0.52 ['cs', 'cs'] m1/m2 [(2, 10), (2, 10)]
+   U2x10   60: -0.28 -0.26  h_E  2.42 h_best  2.13 gainU  0.38 dens 0.51 ['cs', 'union'] m1/m2 [(2, 10), (2, 10)]
+   U2x10  100: -0.34 -0.31  h_E  2.08 h_best  1.70 gainU  2.79 dens 0.51 ['union', 'union'] m1/m2 [(2, 10), (2, 10)]
+   U2x6    30: -1.19 -1.14  h_E  4.93 h_best  3.66 gainU  0.55 dens 0.52 ['union', 'cs'] m1/m2 [(2, 6), (2, 6)]
+   U2x6    60: -0.04 +0.06  h_E  3.40 h_best  2.81 gainU  5.63 dens 0.50 ['union', 'union'] m1/m2 [(2, 6), (2, 6)]
+   U2x6   100: -0.40 -0.35  h_E  2.77 h_best  2.15 gainU  6.47 dens 0.50 ['union', 'union'] m1/m2 [(2, 6), (2, 6)]
+   U6x2    30: -1.48 -1.45  h_E  6.81 h_best  5.22 gainU  0.67 dens 0.50 ['union', 'union'] m1/m2 [(6, 2), (6, 2)]
+   U6x2    60: -0.86 -0.74  h_E  3.29 h_best  2.27 gainU  3.42 dens 0.49 ['union', 'union'] m1/m2 [(6, 2), (6, 2)]
+   U6x2   100: -0.89 -0.88  h_E  2.61 h_best  1.66 gainU  8.00 dens 0.49 ['union', 'union'] m1/m2 [(6, 2), (6, 2)]
+== bench by group,n1 (m_cpu, h_E)
+   m10    20: -1.94 -1.89 h_E 11.92 gainU  0.00
+   m10    30: -1.66 -1.49 h_E 18.67 gainU  0.13
+   m10    40: -0.71 -0.66 h_E 17.54 gainU  7.40
+   m10    50: -1.13 -1.09 h_E 13.50 gainU 15.06
+   m10    60: -0.51 -0.46 h_E 10.87 gainU 17.73
+   m10    70: -0.34 -0.28 h_E  9.84 gainU 17.78
+   m10    80: -0.71 -0.63 h_E 10.18 gainU 17.86
+   m2     20: -0.48 -0.42 h_E  5.41 gainU 10.52
+   m2     30: -0.80 -0.76 h_E  4.26 gainU 14.50
+   m2     40: -0.37 -0.19 h_E  3.65 gainU 17.26
+   m2     50: -0.39 -0.29 h_E  2.98 gainU 18.20
+   m2     60: -0.02 +0.07 h_E  2.34 gainU 18.44
+   m2     70: -0.59 -0.55 h_E  2.68 gainU 18.62
+   m2     80: -0.38 -0.28 h_E  4.28 gainU 18.63
+   m4     20: -1.00 -0.93 h_E 13.27 gainU  5.70
+   m4     30: -0.20 -0.02 h_E  8.55 gainU 12.96
+   m4     40: -0.56 -0.47 h_E  6.75 gainU 15.59
+   m4     50: +0.20 +0.25 h_E  5.11 gainU 16.71
+   m4     60: -0.62 -0.51 h_E  4.98 gainU 18.80
+   m4     70: -0.55 -0.49 h_E  5.46 gainU 18.76
+   m4     80: +0.08 +0.14 h_E  5.52 gainU 18.41
+   u210   20: -0.68 -0.62 h_E  5.14 gainU  1.87
+   u210   30: -1.09 -1.03 h_E 12.15 gainU  3.57
+   u210   40: -0.69 -0.65 h_E  8.11 gainU  6.25
+   u210   50: -0.26 -0.13 h_E  4.69 gainU  6.39
+   u210   60: -0.58 -0.40 h_E  6.31 gainU 10.39
+   u210   70: -0.35 -0.23 h_E  5.76 gainU 12.03
+   u210   80: -0.37 -0.31 h_E  5.29 gainU 14.25
+   u24    20: -0.74 -0.73 h_E  9.30 gainU  5.04
+   u24    30: -0.58 -0.57 h_E  5.49 gainU 11.56
+   u24    40: -0.14 +0.12 h_E  4.41 gainU 11.72
+   u24    50: -0.20 -0.08 h_E  3.91 gainU 11.76
+   u24    60: -0.21 -0.16 h_E  3.30 gainU 16.42
+   u24    70: -0.78 -0.66 h_E  3.60 gainU 14.06
+   u24    80: -0.41 -0.33 h_E  4.43 gainU 13.77
+LOO R2 pooled m_cpu: raw=0.113  theory=0.248  headroom=0.212  theory-noh=0.190  both=0.247  | partial: theory|raw=+0.134 raw|theory=-0.000
+LOO R2 pooled m_ev: raw=0.108  theory=0.234  headroom=0.199  theory-noh=0.176  both=0.230  | partial: theory|raw=+0.122 raw|theory=-0.004
+LOO R2 bench  m_cpu: raw=0.122  theory=0.157  headroom=0.161  theory-noh=0.137  both=0.199  | partial: theory|raw=+0.077 raw|theory=+0.041
+LOO R2 bench  m_ev: raw=0.115  theory=0.156  headroom=0.155  theory-noh=0.136  both=0.176  | partial: theory|raw=+0.061 raw|theory=+0.020
+LOO R2 struct m_cpu: raw=0.035  theory=0.335  headroom=0.324  theory-noh=0.243  both=0.290  | partial: theory|raw=+0.255 raw|theory=-0.045
+LOO R2 struct m_ev: raw=0.002  theory=0.285  headroom=0.288  theory-noh=0.165  both=0.255  | partial: theory|raw=+0.254 raw|theory=-0.030
+== density addendum (struct, host Counter({'machine-D': 58}))
+   dens [0,0.12): n=14 m_cpu -1.08 m_ev -1.00 gap(cpu-ev) -0.08  CPU/eval EACDC 924 us  ILS 525 us  ratio 1.75
+   dens [0.12,0.25): n=14 m_cpu -1.15 m_ev -0.96 gap(cpu-ev) -0.19  CPU/eval EACDC 900 us  ILS 505 us  ratio 1.72
+   dens [0.25,0.4): n=6 m_cpu -0.86 m_ev -0.81 gap(cpu-ev) -0.05  CPU/eval EACDC 797 us  ILS 453 us  ratio 1.76
+   dens [0.4,1): n=24 m_cpu -0.54 m_ev -0.47 gap(cpu-ev) -0.06  CPU/eval EACDC 753 us  ILS 469 us  ratio 1.62
+   spearman m_cpu~dens: rho=+0.20 p=1.3e-01
+   spearman m_ev~dens: rho=+0.15 p=2.7e-01
+   spearman (m_cpu-m_ev)~dens: rho=-0.02 p=9.1e-01; ratio~dens: rho=-0.07 p=6.1e-01
+   n1=30: ratio CPU/eval EACDC/ILS by density: 0.10:1.91 0.11:1.65 0.11:2.07 0.11:1.76 0.19:1.43 0.21:1.92 0.21:1.60 0.21:1.49 0.29:2.04 0.30:1.46 0.48:1.55 0.48:1.72 0.50:1.13 0.51:2.03 0.51:1.88 0.51:1.60 0.52:2.14 0.53:1.78
+   n1=60: ratio CPU/eval EACDC/ILS by density: 0.09:1.28 0.11:1.29 0.12:1.35 0.12:1.45 0.20:1.74 0.20:1.46 0.21:1.43 0.21:1.58 0.30:1.78 0.31:1.66 0.49:1.58 0.49:1.47 0.50:1.27 0.50:1.39 0.50:1.48 0.50:1.73 0.51:1.52 0.51:1.62
+   n1=100: ratio CPU/eval EACDC/ILS by density: 0.10:1.96 0.10:1.65 0.12:2.15 0.12:1.49 0.20:1.66 0.20:1.30 0.21:1.62 0.22:2.29 0.30:2.00 0.31:1.61 0.49:1.51 0.49:1.62 0.50:2.01 0.50:1.81 0.50:1.56 0.50:1.67 0.51:1.37 0.52:1.48
+   n1=150: ratio CPU/eval EACDC/ILS by density: 0.11:2.34 0.12:2.11 0.20:2.66 0.20:1.86
